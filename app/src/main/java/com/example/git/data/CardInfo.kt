@@ -1,4 +1,6 @@
 package com.example.git.data
 
-class CardInfo {
-}
+data class CardInfo(
+    val title: String,
+    val description: String,
+)

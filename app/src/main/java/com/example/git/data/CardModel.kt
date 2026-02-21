@@ -1,4 +1,6 @@
 package com.example.git.data
 
-class CardModel {
-}
+data class CardModel (
+    val id: Int,
+    val name: String
+)
